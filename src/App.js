@@ -8,7 +8,12 @@ export default function App() {
   return (
     <div className="mainContainer">
       <div className="dataContainer">
-        <div className="header">👋 Hey there!</div>
+        <div className="header">
+          <span role="img" aria-label="wave">
+            👋
+          </span>{" "}
+          Hey there!
+        </div>
 
         <div className="bio">
           I am Ifeanyi Muogbo and I'd be a terrific web3 dev so that's pretty
